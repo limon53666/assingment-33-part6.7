@@ -1,0 +1,168 @@
+body,p,span,a,strong {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+section {
+    padding: 50px 0;
+}
+.deafult-text h2{
+    text-transform: capitalize;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.deafult-text h2::before {
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    left: 2px;
+    width: 50px;
+    height: 2px;
+    background-color: #3763eb;
+}
+
+
+
+.deafult-text h6{
+    color: #3763eb;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.deafult-text p{
+    color: #606060;
+    line-height: 27px;
+}
+
+.deafult-btn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    background: #3763eb;
+    padding: 10px 25px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+}
+.deafult-btn::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #3763eb;
+    z-index: -1;
+    transition: all .4s ease-in-out;
+}
+.deafult-btn:hover.deafult-btn::before {
+    width: 100%;
+    box-shadow: 0px 0px 10px 3px #3764eb6c;
+}
+
+
+
+
+/* Newsletter section */
+
+.newsletter-form{
+    background: #3763eb;
+    padding: 50px;
+}
+.newsletter-form .news-btn {
+    border: 1px solid #f1f1f1;
+    color: #fff;
+    background: transparent;
+    padding: 8px 22px;
+}
+.newsletter-form form input{
+    width: 450px;
+}
+
+.news-card {
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 20%);
+    padding: 30px;
+}
+.news-card h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/* Testimonial Section */
+.our-clients .one, .two, .three, .four, .five, .six{
+    padding: 70px;
+}
+
+.our-clients .one{
+    background: url(https://i.postimg.cc/XYFQ3NMQ/client1.png) no-repeat center;
+    background-blend-mode: overlay;
+    background-color: #ffffffad;
+}
+.our-clients .two{
+    background: url(https://i.postimg.cc/JnhNyMgw/client2.png) no-repeat center;
+    background-blend-mode: overlay;
+    background-color: #ffffffad;
+}
+.our-clients .three{
+    background: url(https://i.postimg.cc/kG6Wcwqf/client3.png) no-repeat center;
+    background-blend-mode: overlay;
+    background-color: #ffffffad;
+}
+.our-clients .four{
+    background: url(https://i.postimg.cc/sfqYXF48/client4.png) no-repeat center;
+    background-blend-mode: overlay;
+    background-color: #ffffffad;
+}
+.our-clients .five{
+    background: url(https://i.postimg.cc/Fs35743n/client5.png) no-repeat center;
+    background-blend-mode: overlay;
+    background-color: #ffffffad;
+}
+.our-clients .six{
+    background: url(https://i.postimg.cc/qMK86mm7/client6.png) no-repeat center;
+    background-blend-mode: overlay;
+    background-color: #ffffffad;
+}
+
+.our-clients .one:hover{
+    background: url(https://i.postimg.cc/XYFQ3NMQ/client1.png) no-repeat center;
+    background-blend-mode: overlay;
+    background-color: #ffffff00;
+}
+.our-clients .two:hover{
+    background: url(https://i.postimg.cc/JnhNyMgw/client2.png) no-repeat center;
+    background-blend-mode: overlay;
+    background-color: #ffffff00;
+}
+.our-clients .three:hover{
+    background: url(https://i.postimg.cc/kG6Wcwqf/client3.png) no-repeat center;
+    background-blend-mode: overlay;
+    background-color: #ffffff00;
+}
+.our-clients .four:hover{
+    background: url(https://i.postimg.cc/sfqYXF48/client4.png) no-repeat center;
+    background-blend-mode: overlay;
+    background-color: #ffffff00;
+}
+.our-clients .five:hover{
+    background: url(https://i.postimg.cc/Fs35743n/client5.png) no-repeat center;
+    background-blend-mode: overlay;
+    background-color: #ffffff00;
+}
+.our-clients .six:hover{
+    background: url(https://i.postimg.cc/qMK86mm7/client6.png) no-repeat center;
+    background-blend-mode: overlay;
+    background-color: #ffffff00;
+}
